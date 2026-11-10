@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+
+        <Chronometer
+            android:id="@+id/chronometer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="32sp"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:id="@+id/sleepStageText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sleep Stage: Awake"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:id="@+id/avgSleepText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Avg Sleep: 0m 0s"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/goalSleepText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goal: Not Set"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/startBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Start"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/stopBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Stop"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/resetBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Reset"
+            android:layout_marginTop="10dp"/>
+
+        <Button
+            android:id="@+id/settingsBtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Set Goal"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
